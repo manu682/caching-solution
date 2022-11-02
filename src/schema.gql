@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Mutation {
+  addUser: String!
+}
+
+type Query {
+  users: [User!]!
+}
+
+type Subscription {
+  users: [User!]!
+}
+
+type User {
+  """Shares the user department details."""
+  department: String!
+
+  """Shares the user name."""
+  name: ID!
+}
